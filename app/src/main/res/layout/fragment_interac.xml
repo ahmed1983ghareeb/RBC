@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.InteracFragment"
+    android:orientation="vertical"
+    android:background="#D5EEFA">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Email to send Interac"
+        />
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter amount to transfer" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Send Interac" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="RBC Online Banking"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+</LinearLayout>
